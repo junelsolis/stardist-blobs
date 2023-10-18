@@ -1,0 +1,8 @@
+name: stardist-blobs
+channels:
+  - conda-forge
+dependencies:
+  - python=3.9
+  - pip:
+    - stardist==0.8.5
+    - tensorflow==2.14
